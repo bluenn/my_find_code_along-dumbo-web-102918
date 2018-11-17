@@ -9,7 +9,7 @@ def my_find(collection)
       i = i + 1
     end
   end
-end
+
 
 #you pass the block argument when you call it! the yield is in the definition
 my_find(collection) {|1| 1 % 3 == 0 and 1 % 5 == 0 }
