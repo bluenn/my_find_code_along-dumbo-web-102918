@@ -12,7 +12,7 @@ def my_find(collection)
 
 
 #you pass the block argument when you call it! the yield is in the definition
-my_find(collection) {|1| 1 % 3 == 0 and 1 % 5 == 0 }
+my_find(collection) {|1| 1 % 3 == 0 && 1 % 5 == 0 }
   #=> false
 #In this example, ruby will send false
 #(the return value of the block) back to the
